@@ -1,0 +1,46 @@
+.desktop-app-layout {
+    align-items: center;
+    background-color: var(--variable-collection-primary-0);
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-height: 100vh;
+    min-height: 100svh;
+    height: 100%;
+    padding: 0px 32px;
+    gap: 80px;
+}
+
+.desktop-app-layout .content-block {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 1436px;
+    width: 100%;
+    height: 100%;
+}
+
+.desktop-app-layout .content {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.desktop-app-layout.full-height .content {
+    height: 0px;
+}
+
+.desktop-app-layout.full-height {
+    height: 100vh;
+    height: 100dvh;
+}
+
+@media only screen and (max-width: 400px) {
+    .desktop-app-layout .content {
+        gap: 64;
+    }
+}

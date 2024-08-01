@@ -1,0 +1,15 @@
+.composite-component {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 356px;
+    width: 100%;
+}
+
+.composite-component .top-section {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+}

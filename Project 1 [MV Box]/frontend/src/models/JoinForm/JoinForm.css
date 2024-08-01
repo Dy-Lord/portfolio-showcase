@@ -1,0 +1,97 @@
+.join-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.join-form .top-section {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.join-form .text-wrapper {
+  color: var(--variable-collection-primary-3);
+  font-family: var(--s3-primary-font-family);
+  font-size: var(--s3-primary-font-size);
+  font-style: var(--s3-primary-font-style);
+  font-weight: var(--s3-primary-font-weight);
+  letter-spacing: var(--s3-primary-letter-spacing);
+  line-height: var(--s3-primary-line-height);
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.join-form .form {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.join-form .form-section {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.join-form .selection-box {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.join-form .box-button {
+    width: 100%;
+}
+
+.join-form .p {
+  color: var(--variable-collection-primary-3);
+  font-family: var(--s6-primary-font-family);
+  font-size: var(--s6-primary-font-size);
+  font-style: var(--s6-primary-font-style);
+  font-weight: var(--s6-primary-font-weight);
+  letter-spacing: var(--s6-primary-letter-spacing);
+  line-height: var(--s6-primary-line-height);
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.join-form .p.invalid {
+  color: var(--variable-collection-secondry-0);
+}
+
+.join-form .p.success {
+  color: var(--variable-collection-secondry-1);
+}
+
+.join-form .button-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 400px) {
+  .join-form .text-wrapper {
+    font-family: var(--s4-primary-font-family);
+    font-size: var(--s4-primary-font-size);
+    font-style: var(--s4-primary-font-style);
+    font-weight: var(--s4-primary-font-weight);
+    letter-spacing: var(--s4-primary-letter-spacing);
+    line-height: var(--s4-primary-line-height);
+  }
+}

@@ -1,0 +1,26 @@
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px 0px;
+    width: 100%;
+}
+
+.header .menu {
+    align-items: center;
+    display: inline-flex;
+    gap: 32px;
+    justify-content: flex-end;
+}
+
+.header .title-text {
+    color: var(--variable-collection-primary-3);
+    font-family: var(--s5-primary-font-family);
+    font-size: var(--s5-primary-font-size);
+    font-style: var(--s5-primary-font-style);
+    font-weight: var(--s5-primary-font-weight);
+    letter-spacing: var(--s5-primary-letter-spacing);
+    line-height: var(--s5-primary-line-height);
+    text-wrap: nowrap;
+    text-align: center;
+}

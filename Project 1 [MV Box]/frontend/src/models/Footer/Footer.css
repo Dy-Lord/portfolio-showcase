@@ -1,0 +1,40 @@
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0px;
+    width: 100%;
+}
+
+.footer .text-wrapper {
+    color: var(--variable-collection-primary-5);
+    font-family: var(--s6-primary-font-family);
+    font-size: var(--s6-primary-font-size);
+    font-style: var(--s6-primary-font-style);
+    font-weight: var(--s6-primary-font-weight);
+    letter-spacing: var(--s6-primary-letter-spacing);
+    line-height: var(--s6-primary-line-height);
+    white-space: nowrap;
+    width: fit-content;
+    user-select: all;
+}
+
+.footer .social-media {
+    align-items: center;
+    display: inline-flex;
+    gap: 16px;
+}
+
+.footer .group-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .social-media > svg > path {
+    fill: var(--variable-collection-primary-3);
+}
+
+.footer .social-media > svg {
+    cursor: pointer;
+}

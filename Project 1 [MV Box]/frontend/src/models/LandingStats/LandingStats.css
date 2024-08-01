@@ -1,0 +1,8 @@
+.landing-stats {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 330px;
+}

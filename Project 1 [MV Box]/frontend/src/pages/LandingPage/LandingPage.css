@@ -1,0 +1,26 @@
+.content-section {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    gap: 64px;
+    width: 100%;
+}
+
+.vertical-section {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.edge-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+

@@ -1,0 +1,75 @@
+.about {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about .top-section {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about .title {
+    color: var(--variable-collection-primary-3);
+    font-family: var(--s3-primary-font-family);
+    font-size: var(--s3-primary-font-size);
+    font-style: var(--s3-primary-font-style);
+    font-weight: var(--s3-primary-font-weight);
+    letter-spacing: var(--s3-primary-letter-spacing);
+    line-height: var(--s3-primary-line-height);
+    text-align: center;
+    width: fit-content;
+}
+
+.about .info {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+}
+
+.about .main-text {
+    color: var(--variable-collection-primary-6);
+    flex: 1;
+    font-family: var(--s5-primary-font-family);
+    font-size: var(--s5-primary-font-size);
+    font-style: var(--s5-primary-font-style);
+    font-weight: var(--s5-primary-font-weight);
+    letter-spacing: var(--s5-primary-letter-spacing);
+    line-height: var(--s5-primary-line-height);
+}
+
+.about .accent {
+    color: var(--variable-collection-primary-3);
+    font-family: var(--s5-primary-font-family);
+    font-size: var(--s5-primary-font-size);
+    font-style: var(--s5-primary-font-style);
+    font-weight: var(--s5-primary-font-weight);
+    letter-spacing: var(--s5-primary-letter-spacing);
+    line-height: var(--s5-primary-line-height);
+}
+
+@media only screen and (max-width: 400px) {
+    .about .title {
+        font-family: var(--s4-primary-font-family);
+        font-size: var(--s4-primary-font-size);
+        font-style: var(--s4-primary-font-style);
+        font-weight: var(--s4-primary-font-weight);
+        letter-spacing: var(--s4-primary-letter-spacing);
+        line-height: var(--s4-primary-line-height);
+    }
+
+    .about .main-text,
+    .about .accent {
+        font-family: var(--s6-primary-font-family);
+        font-size: var(--s6-primary-font-size);
+        font-style: var(--s6-primary-font-style);
+        font-weight: var(--s6-primary-font-weight);
+        letter-spacing: var(--s6-primary-letter-spacing);
+        line-height: var(--s6-primary-line-height);
+    }
+}
