@@ -1,6 +1,6 @@
 # Project 1 - MV Box Playlists
 
-MV Box Playlists is a dynamic web platform designed to assist the music community in promoting their art. It serves as a hub where playlist curators can add their playlists to a leaderboard, allowing greater visibility and engagement. Artists can apply to have their tracks added to these curated playlists, providing a streamlined way to gain exposure. 
+**MV Box Playlists** is a dynamic web platform designed to assist the music community in promoting their art. It serves as a hub where playlist curators can add their playlists to a leaderboard, allowing greater visibility and engagement. Artists can apply to have their tracks added to these curated playlists, providing a streamlined way to gain exposure. 
 
 Visit the platform at [mvboxrecords.com](https://mvboxrecords.com)
 
